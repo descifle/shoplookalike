@@ -286,6 +286,10 @@ ul {
   width: 50%;
 }
 
+.mobile_cover {
+  visibility: hidden;
+}
+
 .overlay {
   position: fixed;
   width: 100vw;
@@ -293,6 +297,24 @@ ul {
   top: 0;
   right: 0;
   background-color: rgba(0, 0, 0, 0.808);
+}
+
+.mobile_nav {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  margin-left: 1000px;
+  background: white;
+}
+
+.interesting {
+  transition: margin-left 0.3s ease-out;
+  margin-left: 0;
+}
+
+.stopscroll {
+  overflow: hidden;
 }
 
 @media (min-width: 40rem) {
