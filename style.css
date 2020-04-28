@@ -15,6 +15,49 @@ html, body {
   padding: 0.5rem 2rem;
 }
 
+.mobile_nav {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 0 2rem;
+  margin-left: 1000px;
+  background: white;
+  transition: margin-left 0.3s ease-out;
+}
+
+.overlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.808);
+}
+
+.mobile_cover {
+  visibility: hidden;
+}
+
+.close-btn {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  font-weight: bold;
+}
+
+.mobile_header {
+  display: flex;
+  justify-content: space-between;
+}
+.mobile_header h3 {
+  margin: 0;
+  vertical-align: middle;
+  line-height: 48px;
+}
+
 .build-your-business {
   background-color: #f2e0cf;
   max-width: 1600px;
@@ -286,30 +329,7 @@ ul {
   width: 50%;
 }
 
-.mobile_cover {
-  visibility: hidden;
-}
-
-.overlay {
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-  top: 0;
-  right: 0;
-  background-color: rgba(0, 0, 0, 0.808);
-}
-
-.mobile_nav {
-  position: fixed;
-  top: 0;
-  width: 100vw;
-  height: 100vh;
-  margin-left: 1000px;
-  background: white;
-}
-
 .interesting {
-  transition: margin-left 0.3s ease-out;
   margin-left: 0;
 }
 
